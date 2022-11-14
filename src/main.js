@@ -1,4 +1,5 @@
 $(function () {
+    alert("ee")
     const url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTyfmE_hkpdGpBgotVyAH3kKrFEh6zYPiC6hm70UwQWomNd_gM9kddg2rAggLV6mYlndvamTLH_N2AX/pubhtml?gid=0&single=true';
 
     $.getJSON(url, data => {
